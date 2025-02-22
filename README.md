@@ -26,8 +26,8 @@ addpath([base, 'ddebiftool'], ...
 3. **You don't need to run any scripts from the `ddebiftool_snapshot_23October2022` folder; just ensure they are in your MATLAB path**.
 
 ## Running the Scripts
-
-The scripts should be run in a specific sequence to ensure proper execution. This order is based on how results are saved using `save(...)` and subsequently loaded using `load(...)` across scripts.
+For the pendulum demo just run `pendulum_bif_with_forcing_symmetry.m`. 
+For the auditory model, the scripts should be run in a specific sequence to ensure proper execution. This order is based on how results are saved using `save(...)` and subsequently loaded using `load(...)` across scripts.
 
 **Recommended order:**
 
